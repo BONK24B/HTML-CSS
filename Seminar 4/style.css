@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    width: 1174px;
+    height: 40px;
+    padding-top: 40px;
+    padding-left: 373px;
+    display: flex;
+}
+
+header img {
+    width: 137px;
+    height: 40px;
+}
+
+header .menu a {
+    text-decoration: none;
+    width: 94px;
+    padding-left: 14px;
+    color: black;
+}
+
+header .menu a .menu__icon {
+    width: 10px;
+    height: 10px;
+}
+
+.menu {
+    align-self: right;
+    padding-left: 440px;
+}
+
+main {
+    padding-top: 84px;
+    width: 1174px;
+    height: 375px;
+    padding-left: 373px;
+    display: flex;
+    flex-direction: row;
+}
+
+main .text {
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .text h1 {
+    font-weight: bold;
+    line-height: 120%;
+    font-size: 60px;
+}
+
+main .text p {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 140%;
+    color: 888888;
+}
+
+main .buttons{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+main .buttons .start__button {
+    border-radius: 56px;
+    width: 140px;
+    height: 51px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+
+    background-color: F25822;
+    color: white;
+}
+
+main .buttons .watch__button {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: AAAAAA;
+    background-color: white;
+    border: none;
+}
+
+main img {
+    width: 545px;
+    height: 375px;
+    padding-left: 73px;
+}
+
+.logos {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 373px;
+    padding-right: 373px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.logos img {
+    gap: 48px;
+}
